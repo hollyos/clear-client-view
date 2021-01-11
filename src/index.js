@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+import './styles';
+
+import ClientTracker from './pages/ClientTracker/ClientTracker';
+import Page from './pages/Page/Page';
+import reportWebVitals from './utils/reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Page>
+      <ClientTracker />
+    </Page>
   </React.StrictMode>,
   document.getElementById('root')
 );

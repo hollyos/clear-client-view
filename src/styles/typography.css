@@ -1,0 +1,115 @@
+html,
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+}
+
+.react-wrapper,
+.react-wrapper * {
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+}
+
+.react-wrapper h1,
+.react-wrapper h2,
+.react-wrapper h3,
+.react-wrapper h4,
+.react-wrapper h5,
+.react-wrapper h6,
+.react-wrapper p {
+    margin: 0;
+    padding: 0;
+}
+
+.react-wrapper p,
+.react-wrapper label,
+.react-wrapper input,
+.react-wrapper .font-body {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.react-wrapper h1,
+.react-wrapper .font-heading-1 {
+    font-size: 32px;
+    letter-spacing: 0.32px;
+    line-height: 40px;
+}
+
+.react-wrapper h2,
+.react-wrapper .font-heading-2 {
+    font-size: 28px;
+    letter-spacing: 0.32px;
+    line-height: 32px;
+}
+
+.react-wrapper h3,
+.react-wrapper .font-heading-3 {
+    font-size: 24px;
+    letter-spacing: 0.32px;
+    line-height: 28px;
+}
+
+.react-wrapper h4,
+.react-wrapper .font-heading-4 {
+    font-size: 20px;
+    letter-spacing: 0.24px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.react-wrapper h5,
+.react-wrapper .font-heading-5 {
+    font-size: 18px;
+    letter-spacing: -0.4px;
+    line-height: 24px;
+}
+
+.react-wrapper h6,
+.react-wrapper .font-heading-6 {
+    font-size: 16px;
+    letter-spacing: -0.4px;
+    line-height: 22px;
+}
+
+.react-wrapper .font-sub-heading {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.react-wrapper .font-footnote {
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.react-wrapper .font-caption {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.react-wrapper .font-axis {
+    font-size: 0.625rem;
+    line-height: 13.3333px;
+}
+
+.react-wrapper small,
+.react-wrapper .small {
+    font-size: 0.8em;
+}
+
+.react-wrapper strong,
+.react-wrapper .font-strong {
+    font-weight: bold;
+}
+
+.react-wrapper em,
+.react-wrapper .font-em {
+    font-style: italic;
+}
+
+.react-wrapper sub,
+.react-wrapper .font-sub {
+    vertical-align: sub;
+    font-size: 0.7em;
+}
