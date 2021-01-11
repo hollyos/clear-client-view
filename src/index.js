@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 
 import './styles';
 
-import ClientTracker from './pages/ClientTracker/ClientTracker';
+import OrganizationTracker from './pages/OrganizationTracker/OrganizationTracker';
 import Page from './pages/Page/Page';
 import reportWebVitals from './utils/reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Page>
-      <ClientTracker />
+      <OrganizationTracker />
     </Page>
   </React.StrictMode>,
   document.getElementById('root')

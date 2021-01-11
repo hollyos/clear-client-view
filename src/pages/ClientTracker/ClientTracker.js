@@ -4,7 +4,7 @@ import { v4 as uuid } from 'uuid';
 import MemberContext from '../../contexts/MemberContext';
 import OrganizationContext from '../../contexts/OrganizationContext';
 
-const App = (props) => {
+const ClientTracker = (props) => {
   const { members } = React.useContext(MemberContext);
   const { organizations } = React.useContext(OrganizationContext);
 
@@ -53,4 +53,4 @@ const App = (props) => {
   );
 };
 
-export default App;
+export default ClientTracker;
