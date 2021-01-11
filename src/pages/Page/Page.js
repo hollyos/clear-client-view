@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { MemberProvider } from '../../contexts/MemberContext';
+import { OrganizationProvider } from '../../contexts/OrganizationContext';
 import ClearLogo from '../../svg/clearLogo/ClearLogo';
 
 const Wrapper = styled.div`
@@ -34,7 +36,11 @@ const Page = ({ children }) => (
     </Header>
 
     <Main>
-      {children}
+      <OrganizationProvider>
+        <MemberProvider>
+          {children}
+        </MemberProvider>
+      </OrganizationProvider>
     </Main>
 
     <Footer>

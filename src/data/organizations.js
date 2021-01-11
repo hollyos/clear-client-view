@@ -1,0 +1,222 @@
+export default [
+  {
+  id: "1",
+  created_at: "2020-10-06T20:33:33.956Z",
+  name: "Schulist - Lind",
+  headcount: 69,
+  is_public: false,
+  address_1: "714 Josefa Inlet",
+  city: "South Brendabury",
+  zip_code: "69722-8987",
+  state: "MS"
+  },
+  {
+  id: "2",
+  created_at: "2020-06-30T14:46:33.209Z",
+  name: "Dach, Koepp and Torphy",
+  headcount: 69,
+  is_public: false,
+  address_1: "6982 Garret Burgs",
+  city: "New George",
+  zip_code: "66036",
+  state: "ME"
+  },
+  {
+  id: "3",
+  created_at: "2020-12-20T13:22:35.918Z",
+  name: "Bahringer - Thiel",
+  headcount: 57,
+  is_public: false,
+  address_1: "69134 Miller Trail",
+  city: "North Mariettafurt",
+  zip_code: "57537",
+  state: "MD"
+  },
+  {
+  id: "4",
+  created_at: "2020-09-20T17:33:04.685Z",
+  name: "Harris - Spinka",
+  headcount: 20,
+  is_public: true,
+  address_1: "438 Hills Street",
+  city: "East Joanieport",
+  zip_code: "38967-6469",
+  state: "NV"
+  },
+  {
+  id: "5",
+  created_at: "2020-11-07T08:02:48.439Z",
+  name: "Cruickshank, Kiehn and Armstrong",
+  headcount: 9,
+  is_public: true,
+  address_1: "5358 Vita Key",
+  city: "Merlemouth",
+  zip_code: "51189-4955",
+  state: "MI"
+  },
+  {
+  id: "6",
+  created_at: "2020-10-08T08:20:02.578Z",
+  name: "Wuckert, McGlynn and Schumm",
+  headcount: 78,
+  is_public: true,
+  address_1: "95518 Cordell Field",
+  city: "Judsonfurt",
+  zip_code: "67046",
+  state: "RI"
+  },
+  {
+  id: "7",
+  created_at: "2020-03-27T11:59:06.977Z",
+  name: "Breitenberg - Kuvalis",
+  headcount: 10,
+  is_public: true,
+  address_1: "3137 Goyette Street",
+  city: "Jaskolskifurt",
+  zip_code: "17368-1700",
+  state: "AR"
+  },
+  {
+  id: "8",
+  created_at: "2020-09-24T18:46:30.999Z",
+  name: "Schaefer and Sons",
+  headcount: 52,
+  is_public: false,
+  address_1: "203 Raynor Run",
+  city: "Reillyfurt",
+  zip_code: "94633-3280",
+  state: "IA"
+  },
+  {
+  id: "9",
+  created_at: "2020-03-30T15:24:54.680Z",
+  name: "Wunsch and Sons",
+  headcount: 43,
+  is_public: false,
+  address_1: "15338 Ward Falls",
+  city: "Uptonville",
+  zip_code: "99420",
+  state: "MT"
+  },
+  {
+  id: "10",
+  created_at: "2020-03-31T11:59:38.981Z",
+  name: "Stroman and Sons",
+  headcount: 28,
+  is_public: false,
+  address_1: "97284 Lavern Meadows",
+  city: "North Xanderfurt",
+  zip_code: "95567",
+  state: "MA"
+  },
+  {
+  id: "11",
+  created_at: "2020-08-20T12:36:05.603Z",
+  name: "Turner - Kovacek",
+  headcount: 49,
+  is_public: false,
+  address_1: "8367 Rohan Rapids",
+  city: "South Mathew",
+  zip_code: "70086",
+  state: "CT"
+  },
+  {
+  id: "12",
+  created_at: "2020-07-31T07:11:08.073Z",
+  name: "Bartell and Sons",
+  headcount: 86,
+  is_public: true,
+  address_1: "702 Anabelle Row",
+  city: "Lake Brandontown",
+  zip_code: "32320-3389",
+  state: "MA"
+  },
+  {
+  id: "13",
+  created_at: "2020-09-04T21:13:03.218Z",
+  name: "Jast LLC",
+  headcount: 75,
+  is_public: false,
+  address_1: "1463 Kuhn Point",
+  city: "East Lethaborough",
+  zip_code: "28205",
+  state: "SC"
+  },
+  {
+  id: "14",
+  created_at: "2020-01-15T11:57:11.850Z",
+  name: "Hudson - Jaskolski",
+  headcount: 96,
+  is_public: true,
+  address_1: "909 Perry Loaf",
+  city: "West Kara",
+  zip_code: "57134-3924",
+  state: "NY"
+  },
+  {
+  id: "15",
+  created_at: "2020-12-04T09:58:36.896Z",
+  name: "Wintheiser - Buckridge",
+  headcount: 72,
+  is_public: true,
+  address_1: "018 Borer Ranch",
+  city: "Port Jose",
+  zip_code: "42817",
+  state: "WY"
+  },
+  {
+  id: "16",
+  created_at: "2020-02-07T01:42:46.983Z",
+  name: "Greenholt - Orn",
+  headcount: 70,
+  is_public: true,
+  address_1: "3668 Fritsch Spurs",
+  city: "East Celestinefort",
+  zip_code: "05226",
+  state: "MA"
+  },
+  {
+  id: "17",
+  created_at: "2020-03-05T16:17:17.436Z",
+  name: "Pagac and Sons",
+  headcount: 64,
+  is_public: false,
+  address_1: "05753 Isac Ports",
+  city: "Roobshire",
+  zip_code: "24961-2218",
+  state: "ME"
+  },
+  {
+  id: "18",
+  created_at: "2020-05-12T01:53:03.605Z",
+  name: "Larson - Littel",
+  headcount: 42,
+  is_public: false,
+  address_1: "7465 Edwin Fords",
+  city: "East Carmella",
+  zip_code: "58874",
+  state: "AR"
+  },
+  {
+  id: "19",
+  created_at: "2020-11-09T01:32:04.367Z",
+  name: "Predovic LLC",
+  headcount: 13,
+  is_public: true,
+  address_1: "56842 Von Isle",
+  city: "Wyattstad",
+  zip_code: "91601",
+  state: "MS"
+  },
+  {
+  id: "20",
+  created_at: "2020-05-11T01:47:51.989Z",
+  name: "Ebert - Bayer",
+  headcount: 52,
+  is_public: false,
+  address_1: "2936 Jessy Bypass",
+  city: "Amaliabury",
+  zip_code: "91517",
+  state: "OK"
+  }
+];

@@ -1,27 +1,56 @@
 import React from 'react';
+import { v4 as uuid } from 'uuid';
 
-const App = (props) => (
-  <article {...props}>
-    <header>
-      <h2>Clients</h2>
-    </header>
+import MemberContext from '../../contexts/MemberContext';
+import OrganizationContext from '../../contexts/OrganizationContext';
 
-    <section>
-      <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-          </tr>
-        </thead>
+const App = (props) => {
+  const { members } = React.useContext(MemberContext);
+  const { organizations } = React.useContext(OrganizationContext);
 
-        <tbody>
-          <tr>
-            <td>Foo</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-  </article>
-);
+  return (
+    <article {...props}>
+      <header>
+        <h2>Clients</h2>
+      </header>
+
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Created At</th>
+              <th>Organization</th>
+              <th>Title</th>
+              <th>Phone</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            {members.map((member) => {
+              const organization = organizations.find((organization) => {
+                const memberOrgId = member.organization_id.replace('organization_id ', '').toString();
+
+                return memberOrgId === organization.id
+              });
+
+              return (
+                <tr key={uuid()}>
+                  <td>{member.id}</td>
+                  <td>{member.name}</td>
+                  <td>{member.created_at}</td>
+                  <td>{organization?.name}</td>
+                  <td>{member.title}</td>
+                  <td>{member.phone_number}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </section>
+    </article>
+  );
+};
 
 export default App;
